@@ -1,0 +1,14 @@
+@startuml
+class API {
+    + url
+    + token
+
+    + make_header()
+    + make_body()
+    + make_request(endpoint)
+}
+
+class FileHandler {
+
+}
+@enduml
